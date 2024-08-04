@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 10px 0;
+}
+
+.header nav a {
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+
+.redes-sociales a {
+    margin: 0 20px;
+}
+
+footer {
+    background-color: #2870c3;
+    color: white;
+    padding: 10px;
+}
+
+li::before{
+   list-style-type:'none';
+   content:'';
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image: url(./Images/webicon.png) ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin-right: 5px;
+
+}
+ul{
+    list-style-type:'';
+}
+
+.red{
+    color: rgb(43, 107, 156);
+}
+
+.app::before{
+    list-style-type:'none';
+    content:'';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(./Images/Apps.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+ 
+ }
