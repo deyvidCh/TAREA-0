@@ -6,7 +6,7 @@ function showAlert() {
     const Fecha = document.getElementById('Fecha').value;
     const Mensaje = document.getElementById('Mensaje').value;
 
-    const alertMessage = `Nombres: ${Nombres}\nApellidos: ${Apellidos}\nNumeroTelefonico: ${NumeroTel}\nCorreoElectronico: ${Correo}\nFecha: ${Fecha}\nMensaje: ${Mensaje}`;
+    const alertMessage = ` ${Nombres}\n ${Apellidos}\n ${NumeroTel}\n ${Correo}\n ${Fecha}\n ${Mensaje}`;
 
     alert(alertMessage);
 }
