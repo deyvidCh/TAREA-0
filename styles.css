@@ -1,27 +1,52 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-.header{
-    display: flex;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.header h1 {
-    margin: 10px 0;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 245px;
+    background-color: white;
 }
+
+.left-blue, .right-blue {
+    background-color: #3ba6dc; 
+    width: 35%;
+    height: 100%;
+}
+
+
 
 .header nav a {
     color: rgb(0, 0, 0);
     margin: 0 10px;
     text-decoration: none;
+    align-items: center;
 }
 
-.header nav a:hover {
+.user-avatar {
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav h1 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: black;
+    margin: 5px 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -42,7 +67,6 @@ form {
     border-radius: 20px;
 }
 
-
 .redes-sociales a {
     margin: 0 20px;
 }
@@ -53,37 +77,36 @@ footer {
     padding: 10px;
 }
 
-li::before{
-   list-style-type:'none';
-   content:'';
-   display: inline-block;
-   width: 25px;
-   height: 25px;
-   background-image: url(./Images/webicon.png) ;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   margin-right: 5px;
-
-}
-ul{
-    list-style-type:'';
-}
-
-.red{
-    color: rgb(43, 107, 156);
-}
-
-.app::before{
-    list-style-type:'none';
-    content:'';
+li::before {
+    list-style-type: 'none';
+    content: '';
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url(./Images/Apps.jpeg) ;
+    background-image: url(./Images/webicon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-right: 5px;
- 
- }
+}
+
+ul {
+    list-style-type: '';
+}
+
+.red {
+    color: rgb(43, 107, 156);
+}
+
+.app::before {
+    list-style-type: 'none';
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(./Images/Apps.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
